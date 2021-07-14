@@ -45,3 +45,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "graphql", "~> 1.12"
 gem 'graphiql-rails', group: :development
+
+gem 'opentelemetry-api', path: "/Users/terrpi/src/github.com/open-telemetry/opentelemetry-ruby/api"
+gem 'opentelemetry-sdk', path: "/Users/terrpi/src/github.com/open-telemetry/opentelemetry-ruby/sdk"
+gem 'opentelemetry-instrumentation-graphql', path: "/Users/terrpi/src/github.com/open-telemetry/opentelemetry-ruby/instrumentation/graphql"
+gem "opentelemetry-exporter-jaeger"
+gem 'pry'
